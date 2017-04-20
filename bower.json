@@ -1,0 +1,21 @@
+{
+  "name": "gulp_start",
+  "description": "description",
+  "main": "index.js",
+  "authors": [
+    "idfumg"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

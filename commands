@@ -1,0 +1,35 @@
+# mount the shared virtualbox folder
+sudo umount /media/sf_shared
+sudo mount -t vboxsf -o uid=1000,gid=1000 shared /mnt/shared
+
+# some packages need node executable
+sudo ln -s /usr/bin/nodejs /usr/bin/node
+
+# nodejs commands
+apt-get install nodejs
+apt-get install npm
+
+npm i gulp -g # install gulp globally
+
+npm init
+
+npm i --save-dev gulp
+npm i --save-dev gulp-sass
+npm i --save-dev browser-sync
+npm i --save-dev gulp-concat
+npm i --save-dev gulp-rename
+npm i --save-dev del
+npm i --save-dev gulp-uglifyjs
+npm i --save-dev gulp-cssnano
+npm i --save-dev gulp-autoprefixer
+
+npm i --save-dev gulp-imagemin
+npm i --save-dev imagemin-pngquant
+npm i --save-dev gulp-cache
+
+npm install -g bower
+bower i jquery
+
+# run gulp tasks
+gulp sass
+gulp watch

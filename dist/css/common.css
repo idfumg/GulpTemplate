@@ -1,0 +1,136 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+*, *::after, *::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
+
+body:before {
+  background-image: -webkit-linear-gradient(left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
+  background-image: -webkit-gradient(linear, right top, left top, color-stop(0, transparent), color-stop(0, #eee), color-stop(6.17215%, #eee), color-stop(6.17215%, transparent), color-stop(8.5298%, transparent), color-stop(8.5298%, #eee), color-stop(14.70196%, #eee), color-stop(14.70196%, transparent), color-stop(17.05961%, transparent), color-stop(17.05961%, #eee), color-stop(23.23176%, #eee), color-stop(23.23176%, transparent), color-stop(25.58941%, transparent), color-stop(25.58941%, #eee), color-stop(31.76157%, #eee), color-stop(31.76157%, transparent), color-stop(34.11922%, transparent), color-stop(34.11922%, #eee), color-stop(40.29137%, #eee), color-stop(40.29137%, transparent), color-stop(42.64902%, transparent), color-stop(42.64902%, #eee), color-stop(48.82117%, #eee), color-stop(48.82117%, transparent), color-stop(51.17883%, transparent), color-stop(51.17883%, #eee), color-stop(57.35098%, #eee), color-stop(57.35098%, transparent), color-stop(59.70863%, transparent), color-stop(59.70863%, #eee), color-stop(65.88078%, #eee), color-stop(65.88078%, transparent), color-stop(68.23843%, transparent), color-stop(68.23843%, #eee), color-stop(74.41059%, #eee), color-stop(74.41059%, transparent), color-stop(76.76824%, transparent), color-stop(76.76824%, #eee), color-stop(82.94039%, #eee), color-stop(82.94039%, transparent), color-stop(85.29804%, transparent), color-stop(85.29804%, #eee), color-stop(91.4702%, #eee), color-stop(91.4702%, transparent), color-stop(93.82785%, transparent), color-stop(93.82785%, #eee), color-stop(100%, #eee), to(transparent));
+  background-image: -webkit-linear-gradient(right, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
+  background-image: linear-gradient(to left, transparent 0, #eee 0, #eee 6.17215%, transparent 6.17215%, transparent 8.5298%, #eee 8.5298%, #eee 14.70196%, transparent 14.70196%, transparent 17.05961%, #eee 17.05961%, #eee 23.23176%, transparent 23.23176%, transparent 25.58941%, #eee 25.58941%, #eee 31.76157%, transparent 31.76157%, transparent 34.11922%, #eee 34.11922%, #eee 40.29137%, transparent 40.29137%, transparent 42.64902%, #eee 42.64902%, #eee 48.82117%, transparent 48.82117%, transparent 51.17883%, #eee 51.17883%, #eee 57.35098%, transparent 57.35098%, transparent 59.70863%, #eee 59.70863%, #eee 65.88078%, transparent 65.88078%, transparent 68.23843%, #eee 68.23843%, #eee 74.41059%, transparent 74.41059%, transparent 76.76824%, #eee 76.76824%, #eee 82.94039%, transparent 82.94039%, transparent 85.29804%, #eee 85.29804%, #eee 91.4702%, transparent 91.4702%, transparent 93.82785%, #eee 93.82785%, #eee 100%, transparent 100%);
+  content: "";
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  margin: 0 auto;
+  max-width: 1200px;
+  opacity: 0.4;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  z-index: -1; }
+
+section {
+  background-color: #f5f5f5;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  section::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+.boxes1 {
+  display: block; }
+  .boxes1::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+.box1 {
+  background-color: pink;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .box1:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 500px) {
+    .box1 {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 19.43277%; }
+      .box1:last-child {
+        margin-right: 0; } }
+
+.box2 {
+  background-color: pink;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%; }
+  .box2:last-child {
+    margin-right: 0; }
+  @media screen and (max-width: 500px) {
+    .box2 {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 73.14426%; }
+      .box2:last-child {
+        margin-right: 0; } }
+
+.box3 {
+  background-color: lightblue;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 14.70196%; }
+  .box3:last-child {
+    margin-right: 0; }
+
+.box4 {
+  background-color: lightblue;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%; }
+  .box4:last-child {
+    margin-right: 0; }
+  .box4 .box41, .box4 .box42 {
+    background-color: #3a9fc0;
+    float: left;
+    display: block;
+    margin-right: 2.84259%;
+    width: 48.57871%; }
+    .box4 .box41:last-child, .box4 .box42:last-child {
+      margin-right: 0; }
+
+.box5, .box6 {
+  background-color: lightpink;
+  padding: 2.35765%;
+  width: 100%; }
+
+.box7 {
+  background: lightgreen;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 48.82117%;
+  margin-left: 25.58941%; }
+  .box7:last-child {
+    margin-right: 0; }
+
+.box8 {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  padding: 2.35765%;
+  background-color: #e64a19; }
+  .box8:last-child {
+    margin-right: 0; }
+
+.box9 {
+  float: right;
+  display: block;
+  margin-left: 2.35765%;
+  width: 23.23176%;
+  background-color: #81d4fa; }
+  .box9:last-child {
+    margin-left: 0; }
